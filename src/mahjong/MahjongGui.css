@@ -1,0 +1,106 @@
+.box {
+    width: 700px;
+    height: 700px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cdiv {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.play_card_set {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tt {
+    width: 100%;
+    transform: rotate(180deg);
+}
+
+.bb {
+    width: 100%;
+}
+
+.ll {
+    position: absolute;
+    left: -33%;
+    top: 45%;
+    transform: rotate(90deg);
+}
+
+.rr {
+    position: absolute;
+    left: 55%;
+    top: 45%;
+    transform: rotate(270deg);
+}
+
+.cc {
+    position: relative;
+    width: 520px;
+    height: 520px;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.remind{
+    position: absolute;
+    left:0; right:0; top:0; bottom:0;
+    margin:auto;
+    font-size:400px;
+    color: red;
+    opacity: 1;
+}
+
+.remind.anim{
+    -webkit-transition:all 1.5s;  
+    -moz-transition: all 1.5s; 
+    -ms-transition: all 1.5s;  
+    -o-transition: all 1.5s;  
+    transition: all 1.5s;  
+    opacity: 0;
+}
+
+.card {
+    width: 30px;
+    height: 40px;
+    /* border: 1px solid #000; */
+    background-image: url(%PUBLIC_URL%/card/test.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card.draw{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card.select{
+    border: 0.5px solid #F00;
+}
+
+.card.none {
+    border: none;
+    background-image: none;
+}
+
+.control_panel{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.player_name{
+    font-size:x-large;
+}

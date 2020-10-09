@@ -1,0 +1,114 @@
+.box {
+    width: 650px;
+    height: 450px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.cdiv {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.opponet{
+    height: 50px;
+    display: flex;
+    align-content: space-between;   
+    flex-direction: column; 
+}
+
+.play_card_set {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+.bb {
+    width: 100%;
+}
+
+.cc {
+    position: relative;
+    width: 630px;
+    height: 135px;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.remind{
+    width: 100%;
+    left:0; right:0; top:0; bottom:0;
+    margin:0 auto;
+    text-align: center;
+    font-size:250px;
+    color: red;
+    opacity: 1;
+    pointer-events: none
+}
+
+.remind.anim{
+    -webkit-transition:all 1.5s;  
+    -moz-transition: all 1.5s; 
+    -ms-transition: all 1.5s;  
+    -o-transition: all 1.5s;  
+    transition: all 1.5s;  
+    opacity: 0;
+}
+
+.card {
+    width: 20px;
+    height: 28px;
+    /* border: 1px solid #000; */
+    background-image: url(%PUBLIC_URL%/card/test.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card.my {
+    width: 50px;
+    height: 50px;
+}
+
+
+.card.draw{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card.select{
+    border: 1px solid #F00;
+}
+
+.card.none {
+    border: none;
+    background-image: none;
+}
+
+.opponet{
+    margin-top: 10px;
+    height: 90px;
+    display: flex;
+    align-content: space-between;   
+    flex-direction: column; 
+}
+
+.control_panel{
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+button{
+    padding: 13px;
+}
+
+.player_name{
+    font-size:x-large;
+}
