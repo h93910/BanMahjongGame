@@ -6,10 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 图片素材来源于网上，分辨率有区别是否为PC和手机，具体用户界面未做太多美化
 
-###　PC效果
+### PC效果
 ![pc](https://raw.githubusercontent.com/h93910/BanMahjongGame/main/show/pc.jpg)
 
-###　手机效果
+### 手机效果
 ![phone](https://raw.githubusercontent.com/h93910/BanMahjongGame/main/show/phone.jpg)
 
 ## 运行
@@ -43,4 +43,4 @@ yarn start
 
 1，Jong AI，用的某位老哥的日本麻将ＡＩ，我改为广东牌的形式，鸡胡即可，规则写了只吃上家，全局可碰，会杠会胡
 
-他的项目地址为：https://github.com/Jimboom7/AlphaJong](https://github.com/Jimboom7/AlphaJong)
+他的项目地址为：[https://github.com/Jimboom7/AlphaJong](https://github.com/Jimboom7/AlphaJong)
